@@ -34,26 +34,18 @@ YOLO-People-Counter/
 ## 🛠 Installation
 
 1️⃣ Clone this repository:
-
 ```bash
 git clone https://github.com/yourusername/YOLO-People-Counter.git
-
 cd YOLO-People-Counter
 
 2️⃣ Install dependencies:
-
 bash
-
 Copy code
-
 pip install ultralytics opencv-python
 
 3️⃣ (Optional) Upgrade YOLO:
-
 bash
-
 Copy code
-
 pip install --upgrade ultralytics
 
 ⚙ Usage
@@ -61,11 +53,14 @@ pip install --upgrade ultralytics
 Step	Command / Code
 1	Place your video in the project folder and set the path in app.py:
 python video_path = "/path/to/your/video.mp4"
+
 2	Adjust counting line position in app.py:
 python line_position = 600
+
 3	Run the script:
 bash python app.py
-4	Press q to stop the video playback
+
+
 
 🧠 How It Works
 Loads a pre-trained YOLOv8 model (yolov8n.pt).
@@ -87,17 +82,12 @@ Displays live count on the video.
 📌 Requirements
 
 Python >= 3.8
-
 Ultralytics YOLO
-
 OpenCV (opencv-python)
 
 Install dependencies:
-
 bash
-
-Copy code
-
+copy code
 pip install ultralytics opencv-python
 
 🎥 Example Output
